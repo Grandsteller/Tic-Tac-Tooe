@@ -15,9 +15,6 @@ tr,td{
     border-radius: 8px;
 }
 
-.heading{
-    padding-left:50px;;
-}
 
 
 td{
@@ -88,9 +85,10 @@ z-index: 1; /* Ensures it appears above other elements */
 }
 
 
-#heading{
-    margin-left: 10px;
+.heading{
+    padding-left:50px;;
 }
+
     
 #dialogbox-content{
 background-color: #fff;
