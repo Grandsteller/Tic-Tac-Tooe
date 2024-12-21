@@ -84,6 +84,11 @@ background-color: rgba(39, 36, 79, 0.5);
 z-index: 1; /* Ensures it appears above other elements */
 }
 
+
+#heading{
+    margin-left: 10px;
+}
+    
 #dialogbox-content{
 background-color: #fff;
 margin: 15% auto; /* Center the modal */
