@@ -84,6 +84,9 @@ background-color: rgba(39, 36, 79, 0.5);
 z-index: 1; /* Ensures it appears above other elements */
 }
 
+#bot{
+margin-left:50px;
+}
 
 .heading{
     padding-left:50px;;
