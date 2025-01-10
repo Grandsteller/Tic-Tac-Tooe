@@ -10,7 +10,7 @@
 
 <body>
 
-    <center><h1 style="color: #2F1847;">Game Tic Tac Toe !</h1></center>
+    <center><h1 style="color: #2F1847;"></h1></center>
 
     <center>
         <div>
@@ -78,6 +78,22 @@
     }
     </style>
 
+    
+    <script>
 
+        let fullName="Tic Tac Toe !"
+        let name="";
+        let i=0;
+
+        setInterval(() => {
+                if(i==fullName.length){
+                    i=0;
+                    name="";
+                }
+                name+=fullName[i];
+                document.querySelector("h1").innerHTML=name;
+                i++;
+        },300);
+    </script>
 </body>
 </html>
